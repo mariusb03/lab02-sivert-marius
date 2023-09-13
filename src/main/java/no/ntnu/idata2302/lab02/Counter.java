@@ -1,14 +1,22 @@
+/*
+ * This file is part of NTNU's IDATA2302 Lab02.
+ *
+ * Copyright (C) NTNU 2022
+ * All rights reserved.
+ *
+ */
 package no.ntnu.idata2302.lab02;
 
 public class Counter {
 
     public static void main(String args[]) {
-        var counter = Counter.decimal(5)
+        var counter = Counter.decimal(5);
         for (int i = 0; i < 50; i++) {
             System.out.println(counter.value());
             counter.increment();
         }
     }
+
     /**
      * Create a new counter for decimal numbers (i.e., base 10)
      *
@@ -32,14 +40,14 @@ public class Counter {
     /**
      * Create a counter of a specific length with a specific alphabet
      *
-     * @param alphabet the set of symbols used by the counter
+     * @param alphabet   the set of symbols used by the counter
      * @param digitCount the maximum number of digits
      */
     private static Counter withAlphabet(String alphabet, int digitCount) {
         if (digitCount <= 0)
-            throw new IllegalArgumentException("The number of digits mustbe positive");
+            throw new IllegalArgumentException("The number of digits must be positive");
         assert alphabet != null && !alphabet.isEmpty()
-                : "null or '' are not a valid alphabet";
+            : "null or '' are not a valid alphabet";
 
         var digits = new DigitDisplay[digitCount];
         for (int i = 0; i < digitCount; i++) {
@@ -50,7 +58,7 @@ public class Counter {
 
     private final DigitDisplay digits[];
 
-    private Counter(DigitDisplay[] digits) {
+    Counter(DigitDisplay[] digits) {
         this.digits = digits;
     }
 
