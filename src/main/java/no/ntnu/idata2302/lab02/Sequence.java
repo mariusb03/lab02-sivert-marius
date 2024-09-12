@@ -7,6 +7,8 @@
  */
 package no.ntnu.idata2302.lab02;
 
+import java.util.ArrayList;
+
 /**
  * Implement the Sequence ADT from Lecture 2.2
  *
