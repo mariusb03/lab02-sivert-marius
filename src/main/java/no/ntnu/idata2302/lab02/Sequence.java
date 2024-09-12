@@ -70,9 +70,32 @@ public class Sequence {
      * @param item the item that must be inserted
      */
     public void insert(int item, int index) {
-        // TODO: Implement
-        throw new RuntimeException("Not yet implemented.");
+        if (index < 1 || index > length + 1) {
+            throw new IllegalArgumentException("Invalid index!");
+        }
+        if (length == capacity) {
+            resizeArray();
+        }
+        int zeroBasedIndex = index - 1;
+
+        for (int i = length - 1; i >= zeroBasedIndex; i--) {
+            items[i + 1] = items[i];
+        }
+        items[zeroBasedIndex] = item;
+        this.length++;
     }
+
+    private void resizeArray() {
+        int newCapacity = capacity * 2;
+        int[] newItems = new int[newCapacity];
+
+        for (int i = 0; i < length; i++) {
+            newItems[i] = items[i];
+        }
+        items = newItems;
+        capacity = newCapacity;
+    }
+
 
     /**
      * Remove the index at the given index
