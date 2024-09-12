@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f980e153-668a-4eb6-b91c-4b680c30d53a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/no/ntnu/idata2302/lab02/Counter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/no/ntnu/idata2302/lab02/DigitDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/no/ntnu/idata2302/lab02/Sequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/no/ntnu/idata2302/lab02/CounterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/no/ntnu/idata2302/lab02/SequenceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Sequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +39,7 @@
     "JUnit.SequenceTest.removeShouldRejectEmptySequences.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mariusrusten/Documents/Data ingeniør/3. Semester/Algoritme/lab02-sivert-marius",
     "node.js.detected.package.eslint": "true",

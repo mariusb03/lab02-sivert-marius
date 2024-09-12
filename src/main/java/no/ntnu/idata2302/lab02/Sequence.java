@@ -7,6 +7,8 @@
  */
 package no.ntnu.idata2302.lab02;
 
+import java.util.ArrayList;
+
 /**
  * Implement the Sequence ADT from Lecture 2.2
  *
@@ -70,30 +72,36 @@ public class Sequence {
      * @param item the item that must be inserted
      */
     public void insert(int item, int index) {
-        if (index < 1 || index > length + 1) {
+        if (index < 1 || index > this.length + 1) {
             throw new IllegalArgumentException("Invalid index!");
         }
+
         if (length == capacity) {
+            doubleArraySize();
+        }
+
+        if (this.length == this.capacity) {
             doubleArraySize();
         }
         int zeroBasedIndex = index - 1;
 
-        for (int i = length - 1; i >= zeroBasedIndex; i--) {
-            items[i + 1] = items[i];
+        for (int i = this.length - 1; i >= zeroBasedIndex; i--) {
+            this.items[i + 1] = this.items[i];
         }
-        items[zeroBasedIndex] = item;
+        this.items[zeroBasedIndex] = item;
         this.length++;
     }
+
 
     private void doubleArraySize() {
         int newCapacity = capacity * 2;
         int[] newItems = new int[newCapacity];
 
-        for (int i = 0; i < length; i++) {
-            newItems[i] = items[i];
+        for (int i = 0; i < this.length; i++) {
+            newItems[i] = this.items[i];
         }
-        items = newItems;
-        capacity = newCapacity;
+        this.items = newItems;
+        this.capacity = newCapacity;
     }
 
 
@@ -129,6 +137,11 @@ public class Sequence {
         }
         items = newItems;
         capacity = newCapacity;
+
+
+        // TODO: Implement
+        throw new RuntimeException("Not yet implemented.");
+
     }
 
     /**
