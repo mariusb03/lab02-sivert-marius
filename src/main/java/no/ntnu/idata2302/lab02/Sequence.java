@@ -74,7 +74,7 @@ public class Sequence {
             throw new IllegalArgumentException("Invalid index!");
         }
         if (length == capacity) {
-            resizeArray();
+            doubleArraySize();
         }
         int zeroBasedIndex = index - 1;
 
@@ -85,7 +85,7 @@ public class Sequence {
         this.length++;
     }
 
-    private void resizeArray() {
+    private void doubleArraySize() {
         int newCapacity = capacity * 2;
         int[] newItems = new int[newCapacity];
 
@@ -103,8 +103,32 @@ public class Sequence {
      * @param index the index that must be removed.
      */
     public void remove(int index) {
-        // TODO: Implement
-        throw new RuntimeException("Not yet implemented.");
+        if (length == 0) {
+            throw new IllegalArgumentException("Cannot remove from an empty sequence");
+        }
+        if (index < 1 || index > length) {
+            throw new IllegalArgumentException("Invalid index!");
+        }
+        int zeroBasedIndex = index - 1;
+        for (int i = zeroBasedIndex; i < length - 1; i++) {
+            items[i] = items[i + 1];
+        }
+        items[length - 1] = 0;
+        length--;
+        if (length > 0 && (length <= capacity / 4)) {
+            halveArraySize();
+        }
+    }
+
+    private void halveArraySize() {
+        int newCapacity = capacity / 2;
+        int[] newItems = new int[newCapacity];
+
+        for (int i = 0; i < length; i++) {
+            newItems[i] = items[i];
+        }
+        items = newItems;
+        capacity = newCapacity;
     }
 
     /**

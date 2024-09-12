@@ -29,6 +29,7 @@
     "JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull.executor": "Run",
     "JUnit.SequenceTest.insertShouldShiftItemsTowardsTheEnd.executor": "Run",
     "JUnit.SequenceTest.insertionShouldIncreaseLength.executor": "Run",
+    "JUnit.SequenceTest.removeShouldRejectEmptySequences.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -42,23 +43,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull">
-    <configuration name="SequenceTest.emptySequenceHasLengthZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.ntnu.idata2302.lab02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
-      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="emptySequenceHasLengthZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SequenceTest.removeShouldShrinkArrayWhenItGetsEmpty">
     <configuration name="SequenceTest.insertShouldIncreaseCapacityWhenFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
@@ -75,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.insertShouldShiftItemsTowardsTheEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.removeShouldReduceTheLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
       <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="insertShouldShiftItemsTowardsTheEnd" />
+      <option name="METHOD_NAME" value="removeShouldReduceTheLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.insertionShouldIncreaseLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.removeShouldRejectEmptySequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +86,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
       <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="insertionShouldIncreaseLength" />
+      <option name="METHOD_NAME" value="removeShouldRejectEmptySequences" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceTest.removeShouldShiftElementsTowardsTheBeginning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.ntnu.idata2302.lab02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
+      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
+      <option name="METHOD_NAME" value="removeShouldShiftElementsTowardsTheBeginning" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceTest.removeShouldShrinkArrayWhenItGetsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.ntnu.idata2302.lab02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
+      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
+      <option name="METHOD_NAME" value="removeShouldShrinkArrayWhenItGetsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SequenceTest.removeShouldShrinkArrayWhenItGetsEmpty" />
+        <item itemvalue="JUnit.SequenceTest.removeShouldShiftElementsTowardsTheBeginning" />
+        <item itemvalue="JUnit.SequenceTest.removeShouldReduceTheLength" />
+        <item itemvalue="JUnit.SequenceTest.removeShouldRejectEmptySequences" />
         <item itemvalue="JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull" />
-        <item itemvalue="JUnit.SequenceTest.insertShouldShiftItemsTowardsTheEnd" />
-        <item itemvalue="JUnit.SequenceTest.insertionShouldIncreaseLength" />
-        <item itemvalue="JUnit.SequenceTest.emptySequenceHasLengthZero" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726129413672</updated>
       <workItem from="1726129416297" duration="66000" />
-      <workItem from="1726129493672" duration="2449000" />
+      <workItem from="1726129493672" duration="3363000" />
     </task>
     <servers />
   </component>
