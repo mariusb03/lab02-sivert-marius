@@ -137,11 +137,6 @@ public class Sequence {
         }
         items = newItems;
         capacity = newCapacity;
-
-
-        // TODO: Implement
-        throw new RuntimeException("Not yet implemented.");
-
     }
 
     /**
@@ -152,8 +147,12 @@ public class Sequence {
      * @return an
      */
     public int search(int item) {
-        // TODO: Implement
-        throw new RuntimeException("Not yet implemented.");
+        for (int i = 0; i < length; i++) {
+            if (items[i] == item) {
+                return i + 1;
+            }
+        }
+        return 0;
     }
 
     /**
