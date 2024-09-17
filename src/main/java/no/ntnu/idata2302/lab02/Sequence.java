@@ -162,8 +162,23 @@ public class Sequence {
      *         second the maximum
      */
     public int[] extrema() {
-        // TODO: Implement
-        throw new RuntimeException("Not yet implemented.");
+        if (length == 0) {
+            throw new RuntimeException("Sequence is empty!");
+        }
+
+        int min = items[0];
+        int max = items[0];
+
+        for (int i = 1; i < length; i++) {
+            if (items[i] < min) {
+                min = items[i];
+            }
+            if (items[i] > max) {
+                max = items[i];
+            }
+        }
+
+        return new int[]{min, max};
     }
 
     /**
