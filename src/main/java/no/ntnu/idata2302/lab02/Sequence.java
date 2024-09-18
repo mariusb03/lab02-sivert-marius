@@ -163,7 +163,7 @@ public class Sequence {
      */
     public int[] extrema() {
         if (length == 0) {
-            throw new RuntimeException("Sequence is empty!");
+            throw new IllegalStateException("Sequence is empty!");
         }
 
         int min = items[0];

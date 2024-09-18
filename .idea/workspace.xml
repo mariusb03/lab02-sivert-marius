@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f980e153-668a-4eb6-b91c-4b680c30d53a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/no/ntnu/idata2302/lab02/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/ntnu/idata2302/lab02/Sequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +24,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.SequenceTest.emptySequenceHasLengthZero.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.insertShouldShiftItemsTowardsTheEnd.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.insertionShouldIncreaseLength.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.removeShouldRejectEmptySequences.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.searchShouldReturnAIndexWhereItemIs.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.searchShouldReturnZeroWhenTheItemDoesNotOccur.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceTest.searchShouldReturnZeroWhenTheSequenceIsEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mariusrusten/Documents/Data ingeniør/3. Semester/Algoritme/lab02-sivert-marius&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.SequenceTest.emptySequenceHasLengthZero.executor": "Run",
+    "JUnit.SequenceTest.executor": "Run",
+    "JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull.executor": "Run",
+    "JUnit.SequenceTest.insertShouldShiftItemsTowardsTheEnd.executor": "Run",
+    "JUnit.SequenceTest.insertionShouldIncreaseLength.executor": "Run",
+    "JUnit.SequenceTest.removeShouldRejectEmptySequences.executor": "Run",
+    "JUnit.SequenceTest.searchShouldReturnAIndexWhereItemIs.executor": "Run",
+    "JUnit.SequenceTest.searchShouldReturnZeroWhenTheItemDoesNotOccur.executor": "Run",
+    "JUnit.SequenceTest.searchShouldReturnZeroWhenTheSequenceIsEmpty.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mariusrusten/Documents/Data ingeniør/3. Semester/Algoritme/lab02-sivert-marius",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.SequenceTest.searchShouldReturnZeroWhenTheSequenceIsEmpty">
-    <configuration name="SequenceTest.removeShouldShiftElementsTowardsTheBeginning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.Counter">
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.Counter" />
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -57,15 +58,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
-      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="removeShouldShiftElementsTowardsTheBeginning" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.removeShouldShrinkArrayWhenItGetsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +71,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
-      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="removeShouldShrinkArrayWhenItGetsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.CounterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.searchShouldReturnAIndexWhereItemIs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +87,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
       <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="searchShouldReturnAIndexWhereItemIs" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.searchShouldReturnZeroWhenTheItemDoesNotOccur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.extremaShouldRejectEmptySequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab02" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.ntnu.idata2302.lab02" />
       <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.SequenceTest" />
-      <option name="METHOD_NAME" value="searchShouldReturnZeroWhenTheItemDoesNotOccur" />
+      <option name="METHOD_NAME" value="extremaShouldRejectEmptySequences" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="JUnit.SequenceTest.extremaShouldRejectEmptySequences" />
+        <item itemvalue="JUnit.SequenceTest" />
         <item itemvalue="JUnit.SequenceTest.searchShouldReturnZeroWhenTheSequenceIsEmpty" />
-        <item itemvalue="JUnit.SequenceTest.searchShouldReturnAIndexWhereItemIs" />
-        <item itemvalue="JUnit.SequenceTest.searchShouldReturnZeroWhenTheItemDoesNotOccur" />
-        <item itemvalue="JUnit.SequenceTest.removeShouldShrinkArrayWhenItGetsEmpty" />
-        <item itemvalue="JUnit.SequenceTest.removeShouldShiftElementsTowardsTheBeginning" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +145,7 @@
       <workItem from="1726129416297" duration="66000" />
       <workItem from="1726129493672" duration="4605000" />
       <workItem from="1726565757990" duration="76000" />
-      <workItem from="1726565877297" duration="139000" />
+      <workItem from="1726565877297" duration="749000" />
     </task>
     <servers />
   </component>
