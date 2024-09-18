@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f980e153-668a-4eb6-b91c-4b680c30d53a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idata2302/lab02/Counter.java" afterDir="false" />
-    </list>
+    <list default="true" id="f980e153-668a-4eb6-b91c-4b680c30d53a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +23,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Counter.executor": "Run",
+    "JUnit.CounterTest.executor": "Run",
     "JUnit.SequenceTest.emptySequenceHasLengthZero.executor": "Run",
     "JUnit.SequenceTest.executor": "Run",
+    "JUnit.SequenceTest.extremaShouldRejectEmptySequences.executor": "Run",
     "JUnit.SequenceTest.insertShouldIncreaseCapacityWhenFull.executor": "Run",
     "JUnit.SequenceTest.insertShouldShiftItemsTowardsTheEnd.executor": "Run",
     "JUnit.SequenceTest.insertionShouldIncreaseLength.executor": "Run",
@@ -48,7 +48,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Counter">
+  <component name="RunManager" selected="JUnit.CounterTest">
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.ntnu.idata2302.lab02.Counter" />
       <module name="lab02" />
@@ -126,10 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Counter" />
         <item itemvalue="JUnit.CounterTest" />
-        <item itemvalue="JUnit.SequenceTest.extremaShouldRejectEmptySequences" />
         <item itemvalue="JUnit.SequenceTest" />
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="JUnit.SequenceTest.extremaShouldRejectEmptySequences" />
         <item itemvalue="JUnit.SequenceTest.searchShouldReturnZeroWhenTheSequenceIsEmpty" />
       </list>
     </recent_temporary>
@@ -145,7 +145,7 @@
       <workItem from="1726129416297" duration="66000" />
       <workItem from="1726129493672" duration="4605000" />
       <workItem from="1726565757990" duration="76000" />
-      <workItem from="1726565877297" duration="749000" />
+      <workItem from="1726565877297" duration="1114000" />
     </task>
     <servers />
   </component>

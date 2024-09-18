@@ -66,12 +66,12 @@ public class Counter {
      * Increment the counter by one
      */
     public void increment() {
-        for (int i = 0; i < digits.length; i++) {
-            digits[i].next();
-            if (!digits[i].isZero()) {
-                return;
-            }
+      for (DigitDisplay digit : digits) {
+        digit.next();
+        if (!digit.isZero()) {
+          return;
         }
+      }
     }
 
     /**
